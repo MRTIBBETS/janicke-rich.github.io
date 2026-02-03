@@ -1,0 +1,64 @@
+/* Google Fonts - Geologica */
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;600&display=swap');
+
+:root {
+    --bg-color: #1B2651;
+    --text-color: #FFFFFF;
+    --accent-color: #CD2028;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Geologica', sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.02em;
+}
+
+p {
+    font-size: 1.125rem; /* 18px */
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+    border-bottom: 2px solid var(--accent-color);
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+a:hover {
+    color: var(--text-color);
+    background-color: var(--accent-color);
+}
+
+/* Footer / Meta section style if needed, simplifying for now */
+footer {
+    margin-top: 3rem;
+    font-size: 0.875rem;
+    opacity: 0.7;
+}
